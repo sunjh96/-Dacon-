@@ -30,7 +30,7 @@ Residual sugar - 잔당
 Parameters : N_estimaors(500), Max_features(Auto), Max_depth(20)
 Accuray : 65.82%
 ### Support Vector Machine
-Parameters :C(10), Gamma(100)
+Parameters : C(10), Gamma(100)
 Accuray : 62.97%
 ## 결론
 모델 성능 평가에 있어서 다양한 척도가 있지만 이 연구에서는 가장 간단하고 이해하기 쉬운 Accuracy를 사용한다. 다양한 모델로 분석해 본 결과 Classification Model : Random Forest Accuracy – 65%, Support Vector Machine Accuracy – 63%으로 나타났다. 가장 성능이 좋았던 Random Forest에서의 각 Feature 별 중요도를 나타내본 결과 Alcohol 함량이 품질을 결정하는 데 있어 가장 높은 중요도를 가졌고 와인의 종류인 Red Wine, White Wine은 중요도가 가장 낮게 나타났다. 모델 성능이 그렇게 높게 나타나진 않았지만 예측한 값들과 실제 Test 데이터의 값들을 비교해 본 결과 정확히 맞아떨어지진 않지만 값들의 차이가 그렇게 크게 나타나진 않았다. 
